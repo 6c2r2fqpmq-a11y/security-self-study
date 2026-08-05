@@ -47,3 +47,8 @@ Several of these challenges mirror tasks a SOC analyst or incident responder act
 
 ### Linux Commands Practice Completion
 ![Linux Commands Practice Completion](screenshots/Linux-Commands-Practice-Completion.png)
+
+### Rapid Threat Detection Completion
+![Rapid Threat Detection Completion](screenshots/Rapid-Threat-Detection-Completion.png)
+
+### 
