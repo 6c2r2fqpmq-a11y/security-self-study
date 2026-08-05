@@ -45,3 +45,5 @@ Several of these challenges mirror tasks a SOC analyst or incident responder act
 
 ## Evidence
 
+### Linux Commands Practice Completion
+![Linux Commands Practice Completion](screenshots/Linux Commands Practice Completion.png)
