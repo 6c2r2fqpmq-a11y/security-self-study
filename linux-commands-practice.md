@@ -40,4 +40,8 @@ Several of these challenges mirror tasks a SOC analyst or incident responder act
 - File system navigation and management ('ls', 'cd', 'mkdir', 'cp', 'mv', 'rm')
 - Log/file inspection ('cat', 'less', 'head', 'tail')
 - Pattern searching across files ('find', 'grep')
-- Text processing and dat
+- Text processing and data summarization ('cut', 'sort', 'uniq', 'awk')
+- System resource monitoring ('top', 'free', 'df', 'du')
+
+## Evidence
+
