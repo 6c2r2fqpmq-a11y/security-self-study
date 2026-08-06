@@ -31,4 +31,4 @@ Practiced 'COUNT()', 'SUM()', and 'GROUP BY' to summarize data: directly paralle
 Practiced nesting one query inside another to filter based on a computed value (e.g., comparing a row against an aggregate): useful for questions like "which accounts had more failed logins than the average."
 
 ### Why This Connects to My Other Work
-The SPL query I wrote in my [Splunk SIEM lab](https://github.com/6c2r2fqpmq-a11y/home-siem-lab-splunk) to count failed logins by account ('stats count by Account_Name') follows the same logical structure as a SQL 'GROUP BY': this course reinforced how the same query logic applies across different tools (SQL, SPL, and even command line tools like 'awk', covered in my  ).
+The SPL query I wrote in my [Splunk SIEM lab](https://github.com/6c2r2fqpmq-a11y/home-siem-lab-splunk) to count failed logins by account ('stats count by Account_Name') follows the same logical structure as a SQL 'GROUP BY': this course reinforced how the same query logic applies across different tools (SQL, SPL, and even command line tools like 'awk', covered in my [Linux practice write-up](./linux-commands-practice.md)
