@@ -12,8 +12,8 @@ I completed Cyber Security 101 to build a broad, hands-on foundation across both
 |---|--------|-------|---------|
 | 1 | Offensive Security Tooling - OWASP Top 10 | Web application vulnerabilities: injection, XXE, insecure deserialization, broken access control, and more | [OWASP Top 10](./01-owasp-top-10.md) |
 | 2 | Defensive Security Tooling | CyberChef, CAPA, REMnux, FlareVM: malware and forensic analysis tooling | [Defensive Security Tooling](./02-defensive-security-tooling.md) |
-| 3 | Defensive Security | SOC structure, digital forensics, incident response | ['03-defensive-security.md'](./03-defensive-security.md) |
-| 4 | Cryptography | Symmetric/asymmetric encryption, hashing, John the Ripper, GPG | ['04-cryptography.md'](./04-cryptography.md) |
+| 3 | Defensive Security | SOC structure, digital forensics, incident response | [Defensive Security](./03-defensive-security.md) |
+| 4 | Cryptography | Symmetric/asymmetric encryption, hashing, John the Ripper, GPG | [Cryptography](./04-cryptography.md) |
 
 Each writeup covers the concepts taught, the tools and commands I used, and in some cases tripped me up and how I worked through it.
 
