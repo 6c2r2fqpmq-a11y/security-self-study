@@ -35,6 +35,9 @@ Watched ['Mastering Wireshark: The Complete Tutorial"](https://www.youtube.com/w
 - Analyzed IPv6 traffic and tracked IPv6 specific traffic patterns.
 - Used **Tshark** (Wireshark's command-line counterpart) for traffic analysis - useful for analyzing captures on systems without a GUI, such as servers.
 
+### Why This Matters for Security Work
+This directly overlaps with detection work in my [Splunk SIEM lab](https://github.com/6c2r2fqpmq-a11y/home-siem-lab-splunk): both involve filtering large volumes of data down to the specific events that matter (DNS anomalies, suspicious auth traffic) and documenting findings as evidence. The "Find Exposed Login Credentials" and "Uncover Suspicious DNS Queries" challenges in particular mirror real SOC triage work.
+
 
 
 
