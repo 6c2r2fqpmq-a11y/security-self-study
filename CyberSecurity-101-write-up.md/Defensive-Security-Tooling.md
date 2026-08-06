@@ -27,7 +27,7 @@ The value here is speed: instead of manually reverse engineering a binary from s
 REMnux is a Linux distribution pre-loaded with malware and forensic analysis tooling. This room had me analyze a malicious Office document ('xIsm') suspected of hiding a macro:
 
 1. Used 'oledump.py' to list the 0LE2 data streams inside the file and identify which stream contained a macro (flagged with an 'M' in the output).
-2. Dumped that stream and applied the '--vbadecompress flag to turn the raw hex into readable VBA source.
+2. Dumped that stream and applied the '--vbadecompress' flag to turn the raw hex into readable VBA source.
 3. Read through the decompressed macro to find the actual malicious behavior: in this case, code that downloaded and executed a second-stage payload.
 4. Used **INetSim** to simulate network services (DNS, HTTP, etc.) inside an isolated environment, so the malware could be *detonated* safely and its network behavior observed without it reaching anything real.
 
