@@ -45,11 +45,11 @@ Several of these challenges mirror tasks a SOC analyst or incident responder act
 
 ## Evidence
 
-### Linux Commands Practice Completion
-![Linux Commands Practice Completion](screenshots/Linux-Commands-Practice-Completion.png)
-
 ### Rapid Threat Detection Completion
 ![Rapid Threat Detection Completion](screenshots/Rapid-Threat-Detection-Completion.png)
 
 ### Setting Up a New Project Structure Completion
 ![Setting Up a New Project Structure Completion](screenshots/Setting-Up-a-New-Project-Structure-Completion.png)
+
+### Linux Commands Practice Completion
+![Linux Commands Practice Completion](screenshots/Linux-Commands-Practice-Completion.png)
