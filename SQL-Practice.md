@@ -39,7 +39,7 @@ The SPL query I wrote in my [Splunk SIEM lab](https://github.com/6c2r2fqpmq-a11y
 ## Sample Query (Illustrative)
 A general example of the kind of query pattern practiced:
 
-'''sql
+```sql
 -- Count records per category above a threshold, most frequent first
 SELECT category, COUNT(*) AS occurences
 FROM events
@@ -47,7 +47,7 @@ WHERE status = 'failed'
 GROUP BY category
 HAVING COUNT(*) > 5
 ORDER BY occurrences DESC;
-'''
+```
 
 
 
