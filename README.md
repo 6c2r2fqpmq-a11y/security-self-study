@@ -2,7 +2,7 @@
 Hands on write ups from my ongoing cybersecurity self-study, alongside my Cybersecurity (Engineering) coursework at the University of North Texas.
 
 ## About Me
-I'm a Cybersecurity student at UNT building practical, hands-on experience outside the classroom. This repo documents that, work including specific commands, queries, and findings.
+I'm a first year Cybersecurity student at UNT building practical, hands-on experience outside the classroom. This repo documents that, work including specific commands, queries, and findings.
 
 ## Projects
 Full, standalone builds with their repos:
