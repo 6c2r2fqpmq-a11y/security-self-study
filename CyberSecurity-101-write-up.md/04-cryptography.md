@@ -32,7 +32,7 @@ The room walked through the two families of encryption:
 **Hands-on work:**
 
 - Cracked a passphrase-protected SSH private key using 'ssh2john' to convert it into a crackable hash format, then ran it through **John the Ripper** against the 'rockyou.txt' wordlist to recover the passphrase.
-- Imported a provided GPG private key with 'gpg --import and decrypted an encrypted message with 'gpg --decrypt' to reveal the hidden plaintext.
+- Imported a provided GPG private key with 'gpg --import' and decrypted an encrypted message with 'gpg --decrypt' to reveal the hidden plaintext.
 - Worked through an AES decryption task, reinforcing why AES-256 remains the standard for bulk data encryption even in a post-quantum-computing conversation (asymmetric algorithms like RSA are far more vulnerable to quantum attacks than symmetric ones like AES) .
 
 ## Hashing & John the Ripper
