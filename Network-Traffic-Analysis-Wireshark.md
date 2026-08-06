@@ -1,0 +1,21 @@
+# Network Traffic Analysis - Wireshark
+
+## Objective
+Completed LabEx's "Wireshark for Beginners" course (20 labs/challenges) to build hands on skill in packet capture, filtering, and protocol level traffic analysis, supplemented by additional self study on Wireshark's interface and statistics tools.
+
+## Course
+[LabEx - Wireshark for Beginners](https://labex.io/courses/wireshark-for-beginners)
+
+## Supplementary Learning
+Watched ['Mastering Wireshark: The Complete Tutorial"](https://www.youtube.com/watch?v=a_4MjV_-75w) (Hacker Joe) to reinforce interface navigation, filtering syntax, coloring rules, and Wireshark's built-in statistics tools (covered in the LabEx labs below, plus TCP/UDP protocol behavior for DHCP and DNS).
+
+## What the Course Covered
+
+### Setup & Interface
+- Installed and verified Wireshark, explored and customized the interface, and the configuration column display for faster packet triage.
+
+### Packet Capture & Basic Filtering
+- Captured live network traffic and applied **display filters** to isolate specific protocols.
+- Completed **"Filter Encrypted Web Traffic"**: identifying and isolating TLS/HTTPS traffic using filter syntax.
+
+> Note: add a specific filter
