@@ -11,10 +11,10 @@ Built a home SOC lab ingesting Windows event logs, wrote 3 custom SPL detection 
 
 ## Write-ups
 Documented practice and self-study, with specific commands/queries and what I learned:
-- **[Network Traffic Analysis (Wireshark)](./wireshark-traffic-analysis.md)** Packet capture analysis using display/capture filters to isolate protocol level anomalies.
+- **[Network Traffic Analysis (Wireshark)](./Network-Traffic-Analysis-Wireshark.md)** Packet capture analysis using display/capture filters to isolate protocol level anomalies.
 - **[Linux Commands Practice](./linux-commands-practice.md)** 41 lab LabEx course covering file operations, text processing(`grep`, `awk`, `sort`), file searching, and system monitoring.
-- **[Security Fundamentals (TryHackMe)](./tryhackme-security-fundamentals.md)** 14 module path covering networking, Linux, web, and cryptography fundamentals
-- **[SQL for Security Data Analysis](./sql-security-data-analysis.md)** Ongoing SQL practice (filtering joins, aggregation) applied to security relevant data analysis
+- **[Security Fundamentals (TryHackMe)](./CyberSecurity-101-write-up.md)** 14 module path covering networking, Linux, web, and cryptography fundamentals
+- **[SQL for Security Data Analysis](./SQL-Practice.md)** Ongoing SQL practice (filtering joins, aggregation) applied to security relevant data analysis
 
   ## Skills Summary
   `Splunk (SPL)` ·  `Wireshark` · `Linux/Bash` · `SQL` · `Python` · `NIST CSF` · `MITRE ATT&CK`
