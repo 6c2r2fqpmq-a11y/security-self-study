@@ -6,7 +6,7 @@ I'm a Cybersecurity student at UNT building practical, hands-on experience outsi
 
 ## Projects
 Full, standalone builds with their repos:
-- [Home SIEM Lab (splunk)](https://github.com/[6c2r2fqpmq-a11]/home-siem-lab-splunk)
+- [Home SIEM Lab (splunk)](https://github.com/6c2r2fqpmq-a11y/home-siem-lab-splunk)
 Built a home SOC lab ingesting Windows event logs, wrote 3 custom SPL detection rules (brute force login, unauthorized account creation, PowerShell execution), simulated attacks against them, and authored a full incident report.
 
 ## Write-ups
