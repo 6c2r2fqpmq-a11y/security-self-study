@@ -38,7 +38,7 @@ Watched ["Mastering Wireshark: The Complete Tutorial"](https://www.youtube.com/w
 ### Why This Matters for Security Work
 This directly overlaps with detection work in my [Splunk SIEM lab](https://github.com/6c2r2fqpmq-a11y/home-siem-lab-splunk): both involve filtering large volumes of data down to the specific events that matter (DNS anomalies, suspicious auth traffic) and documenting findings as evidence. The "Find Exposed Login Credentials" and "Uncover Suspicious DNS Queries" challenges in particular mirror real SOC triage work.
 
-## Skills DEmonstrated
+## Skills Demonstrated
 - Wireshark display and capture filter syntax
 - DNS and TLS/HTTPS traffic analysis
 - TCP stream reconstruction and evidence export
