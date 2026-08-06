@@ -95,7 +95,7 @@ After starting a netcat listener on my machine and resulting base64 string as th
 
 **The part I got stuck on:** understanding *why* this worked. Deserialization frameworks like pickle aren't just decoding data they're re-running constructors and methods to rebuild an object, which means a crafted object can make the deserializer execute code as a byproduct of doing its normal job. Once that clicked, the exploit path made a lot more sense than just following steps.
 
-**Fix, in a real environment:** never deserialize untrusted input with formats that support arbitrary code execution ( ‘pickle’ in Python, native serialization in Java/PHP without restrictions). Use dat a formats like JSON for anything client-facing, and if serialized object must be trusted, sign and verify them before deserializing.
+**Fix, in a real environment:** never deserialize untrusted input with formats that support arbitrary code execution ( ‘pickle’ in Python, native serialization in Java/PHP without restrictions). Use data formats like JSON for anything client-facing, and if serialized object must be trusted, sign and verify them before deserializing.
 
 ## Takeaways
 
