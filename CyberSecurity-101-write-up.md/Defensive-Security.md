@@ -9,7 +9,7 @@ This module builds the foundation for the "blue team" side of security: how a Se
 - Introduction to Defensive Security (SOC structure, digital forensics fundamentals, incident response basics)
 - Digital Forensics case work (file/metadata analysis)
 - Incident response fundamentals
-- 
+
 ## Security Operations Center (SOC) Fundamentals
 
 A SOC is the team responsible for continuously monitoring an organization's environment and responding when something looks wrong. This room laid out how a SOC is typically staffed and how work escalates:
