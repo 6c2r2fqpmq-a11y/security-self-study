@@ -18,4 +18,8 @@ Watched ['Mastering Wireshark: The Complete Tutorial"](https://www.youtube.com/w
 - Captured live network traffic and applied **display filters** to isolate specific protocols.
 - Completed **"Filter Encrypted Web Traffic"**: identifying and isolating TLS/HTTPS traffic using filter syntax.
 
-> Note: add a specific filter
+> Note: add a specific filte
+
+##Capture FIlters & Advanced Filitering
+- Applied **capture filiters** (filtering at the point of capture, not just after) and completed **"Filter DNS Communications"** and **"Uncover Suspicious DNS Queries"** - isolating and analyzing DNS traffic to identify potential  indicators of cromprosie.
+- Completed **"Find Exposeed Login CRedentials"** - using filiters to locate cleartext credentials transmitted over unecrypted protocols (a common real-world find in network security assessments).
