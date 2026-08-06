@@ -20,6 +20,19 @@ Watched ['Mastering Wireshark: The Complete Tutorial"](https://www.youtube.com/w
 
 > Note: add a specific filte
 
-##Capture FIlters & Advanced Filitering
+### Capture FIlters & Advanced Filitering
 - Applied **capture filiters** (filtering at the point of capture, not just after) and completed **"Filter DNS Communications"** and **"Uncover Suspicious DNS Queries"** - isolating and analyzing DNS traffic to identify potential  indicators of cromprosie.
 - Completed **"Find Exposeed Login CRedentials"** - using filiters to locate cleartext credentials transmitted over unecrypted protocols (a common real-world find in network security assessments).
+
+### Coloring Rules & Traffic Classification
+- Created custom **coloring rules** in Wireshark to visually distincgusish traffic types, and built an **"HTTPS Traffic DEtector"** challenge to classify encrypted vs. uncrypted traffic at glance.
+
+### TCP Stream Analysis & Evidence Extraction
+- Used **"Follow TCP Stream"** to reconstruct full conversations between two hosts from indivual packets.
+- Completed **"Extract Web Traffic Evidenc"** and **"Export Suspicious Network Evidence"** - exporting specific packets/streams as evidence, the same workflow used when documents findsings for an incoident report.
+
+
+
+
+
+
