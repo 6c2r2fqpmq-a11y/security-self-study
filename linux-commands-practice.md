@@ -16,7 +16,7 @@ Practiced core commands for moving around and managing the filesystem: 'ls', 'pw
 
 ### Viewing & Reading Files
 Practiced 'cat', 'more', 'less', 'head', 'tail', 'nl'.
-- Applied these in the **"Viewing Log and Configuration Files in Linux"** challenge> These are directly relevant to log review, since these are the commands used to page through and inspect log files without opening a full text editor.
+- Applied these in the **"Viewing Log and Configuration Files in Linux"** challenge. These are directly relevant to log review, since these are the commands used to page through and inspect log files without opening a full text editor.
 
 ### File Searching & Locating
 Practiced 'which', 'whereis', 'find', 'grep'.
@@ -25,13 +25,13 @@ Practiced 'which', 'whereis', 'find', 'grep'.
 
 ### Text Processing
 Practiced 'wc', 'cut', 'sort', 'uniq', 'tr', 'diff', 'join', 'xargs', 'awk'.
--Completed **'Word Count and Sorting"** and **"Processing Employees Data"**, which required chaining commands together (e.g., 'sort' + 'uniq' to find duplicate or most frequent entries, 'awk' to extract and process structured fields from a data file). This is the same logic used to summarize or de-duplicate log data.
+- Completed **'Word Count and Sorting"** and **"Processing Employees Data"**, which required chaining commands together (e.g., 'sort' + 'uniq' to find duplicate or most frequent entries, 'awk' to extract and process structured fields from a data file). This is the same logic used to summarize or de-duplicate log data.
 
 > Note: 'awk' and chaining commands with pipes ('|') is the most advanced/valuable skill in this section (e.g., a command you used to count occurrences of value in a file).
 
 ### System Monitoring
 Practiced 'top', 'free', 'df', 'du', 'time'.
--Completed **"Disk Usage Detective"**, which required using 'du' and 'df' to identify what was consuming disk space on a system, a real troubleshooting/triage task.
+- Completed **"Disk Usage Detective"**, which required using 'du' and 'df' to identify what was consuming disk space on a system, a real troubleshooting/triage task.
 
 ## Why This Matters for Securing Work
 Several of these challenges mirror tasks a SOC analyst or incident responder actually does: paging through log files ('less', 'tail'), searching for specific indictors across many files ('grep', 'find'), and summarizing data to spot patterns ('sort', 'uniq', 'awk'). This course connects directly to the log analysis work in my [Splunk SIEM lab](https://github.com/6c2r2fqpmq-a11y/home-siem-lab-splunk). Command-line tools like 'grep' and 'awk' can do locally, on raw log files, much of what SPL does inside Splunk.
