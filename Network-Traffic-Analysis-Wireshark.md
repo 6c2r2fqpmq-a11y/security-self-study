@@ -20,16 +20,16 @@ Watched ['Mastering Wireshark: The Complete Tutorial"](https://www.youtube.com/w
 
 > Note: add a specific filte
 
-### Capture FIlters & Advanced Filitering
-- Applied **capture filiters** (filtering at the point of capture, not just after) and completed **"Filter DNS Communications"** and **"Uncover Suspicious DNS Queries"** - isolating and analyzing DNS traffic to identify potential  indicators of cromprosie.
-- Completed **"Find Exposeed Login CRedentials"** - using filiters to locate cleartext credentials transmitted over unecrypted protocols (a common real-world find in network security assessments).
+### Capture FIlters & Advanced Filtering
+- Applied **capture filters** (filtering at the point of capture, not just after) and completed **"Filter DNS Communications"** and **"Uncover Suspicious DNS Queries"** - isolating and analyzing DNS traffic to identify potential  indicators of compromise.
+- Completed **"Find Exposed Login CRedentials"** - using filters to locate cleartext credentials transmitted over unencrypted protocols (a common real-world find in network security assessments).
 
 ### Coloring Rules & Traffic Classification
-- Created custom **coloring rules** in Wireshark to visually distincgusish traffic types, and built an **"HTTPS Traffic DEtector"** challenge to classify encrypted vs. uncrypted traffic at glance.
+- Created custom **coloring rules** in Wireshark to visually distinguish traffic types, and built an **"HTTPS Traffic DEtector"** challenge to classify encrypted vs. unencrypted traffic at glance.
 
 ### TCP Stream Analysis & Evidence Extraction
-- Used **"Follow TCP Stream"** to reconstruct full conversations between two hosts from indivual packets.
-- Completed **"Extract Web Traffic Evidenc"** and **"Export Suspicious Network Evidence"** - exporting specific packets/streams as evidence, the same workflow used when documents findsings for an incoident report.
+- Used **"Follow TCP Stream"** to reconstruct full conversations between two hosts from individual packets.
+- Completed **"Extract Web Traffic Evidence"** and **"Export Suspicious Network Evidence"** - exporting specific packets/streams as evidence, the same workflow used when documents findings for an incident report.
 
 ### IPv6 & Tshark (Command-Line Analysis)
 - Analyzed IPv6 traffic and tracked IPv6 specific traffic patterns.
@@ -42,7 +42,7 @@ This directly overlaps with detection work in my [Splunk SIEM lab](https://githu
 - Wireshark display and capture filter syntax
 - DNS and TLS/HTTPS traffic analysis
 - TCP stream reconstruction and evidence export
-- COlring rules for rapid visual triage
+- Coloring rules for rapid visual triage
 - Command-line packet analysis with Tshark
 
 ## Evidence
