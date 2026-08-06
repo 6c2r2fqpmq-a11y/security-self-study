@@ -31,7 +31,9 @@ Watched ['Mastering Wireshark: The Complete Tutorial"](https://www.youtube.com/w
 - Used **"Follow TCP Stream"** to reconstruct full conversations between two hosts from indivual packets.
 - Completed **"Extract Web Traffic Evidenc"** and **"Export Suspicious Network Evidence"** - exporting specific packets/streams as evidence, the same workflow used when documents findsings for an incoident report.
 
-
+### IPv6 & Tshark (Command-Line Analysis)
+- Analyzed IPv6 traffic and tracked IPv6 specific traffic patterns.
+- Used **Tshark** (Wireshark's command-line counterpart) for traffic analysis - useful for analyzing captures on systems without a GUI, such as servers.
 
 
 
