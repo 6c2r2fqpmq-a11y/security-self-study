@@ -30,5 +30,25 @@ Practiced 'COUNT()', 'SUM()', and 'GROUP BY' to summarize data: directly paralle
 ### Subqueries
 Practiced nesting one query inside another to filter based on a computed value (e.g., comparing a row against an aggregate): useful for questions like "which accounts had more failed logins than the average."
 
+### Self Joins
+Practiced joining a table to itself to compare rows within the same dataset: a pattern useful for tasks like comparing a user's current activity against their own historical baseline.
+
 ### Why This Connects to My Other Work
-The SPL query I wrote in my [Splunk SIEM lab](https://github.com/6c2r2fqpmq-a11y/home-siem-lab-splunk) to count failed logins by account ('stats count by Account_Name') follows the same logical structure as a SQL 'GROUP BY': this course reinforced how the same query logic applies across different tools (SQL, SPL, and even command line tools like 'awk', covered in my [Linux practice write-up](./linux-commands-practice.md)
+The SPL query I wrote in my [Splunk SIEM lab](https://github.com/6c2r2fqpmq-a11y/home-siem-lab-splunk) to count failed logins by account ('stats count by Account_Name') follows the same logical structure as a SQL 'GROUP BY': this course reinforced how the same query logic applies across different tools (SQL, SPL, and even command line tools like 'awk', covered in my [Linux practice write-up](./linux-commands-practice.md)).
+
+## Sample Query (Illustrative)
+A general example of the kind of query pattern practiced:
+
+'''sql
+-- Count records per category above a threshold, most frequent first
+SELECT category, COUNT(*) AS occurences
+FROM events
+WHERE status = 'failed'
+GROUP BY category
+HAVING COUNT(*) > 5
+ORDER BY occurrences DESC;
+'''
+
+
+
+
