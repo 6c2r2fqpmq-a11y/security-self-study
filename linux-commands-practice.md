@@ -10,7 +10,7 @@ Completed LabEx's "Linux Commands Practice Online" course (41 labs/challenges) t
 
 ### File System Navigation & Management
 Practiced core commands for moving around and managing the filesystem: 'ls', 'pwd', 'cd', 'mkdir', 'cp', 'mv', 'rm'.
-- Completed two applied challenges: **"Setting Up a New Project Project Structure"** and **"Organizing Files and Directories"**, which required using these commands together to build and reorganize a directory tree rather than running them in isolation.
+- Completed two applied challenges: **"Setting Up a New Project Structure"** and **"Organizing Files and Directories"**, which required using these commands together to build and reorganize a directory tree rather than running them in isolation.
 
 > Note: replace this with a specific detail once you've gone through it (e.g., In the 'Organizing Files and Directories' challenge, I had to sort files into subdirectories by file type using 'mv' and wildcard patterns.)
 
